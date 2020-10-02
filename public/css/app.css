@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3051ff;
+}
+
+.container {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+
+.container ul {
+  background-color: #09a6ff;
+  list-style: none;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.container ul h1 {
+  color: white;
+}
+

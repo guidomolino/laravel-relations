@@ -1,1 +1,27 @@
-//
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(48, 81, 255);
+}
+
+.container{
+  text-align: center;
+  width: 400px;
+
+  margin: auto;
+
+  ul{
+
+    background-color: rgb(9, 166, 255);
+    list-style: none;
+    border-radius: 20px;
+    padding: 20px;
+   h1 {
+    color: white;
+   }
+  }
+}
