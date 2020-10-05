@@ -14,11 +14,10 @@ class CreateTasksTable extends Migration
     public function up()
     {
         Schema::create('tasks', function (Blueprint $table) {
-            $table->id();
-            $table->bigInteger('employee_id');
-            $table->string('job', 85);
-            $table->double('month_salary');
-            $table->timestamps();
+            $table -> id();
+            $table -> string('job', 85);
+            $table -> double('month_salary');
+            $table -> timestamps();
         });
     }
 

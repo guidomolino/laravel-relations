@@ -10,5 +10,14 @@ class Employee extends Model
     'firstname',
     'lastname',
     'birthDay',
+    'location_id'
   ];
+
+  public function location(){
+    return $this -> belongsTo(Location::class);
+  }
+
+  public function tasks(){
+    return $this -> belongsToMany(Task::class);
+  }
 }
