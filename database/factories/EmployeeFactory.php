@@ -10,6 +10,6 @@ $factory->define(Employee::class, function (Faker $faker) {
     return [
       'firstname' => $faker -> firstName(),
       'lastname'  => $faker -> lastName(),
-      'birthDay'  => $faker -> date($format = 'Y-m-d', $max = 'now'),
+      'birthDay'  => $faker -> date($format = 'Y-m-d', $max = 'now')
     ];
 });

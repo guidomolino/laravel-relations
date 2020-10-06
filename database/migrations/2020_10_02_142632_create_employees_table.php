@@ -19,7 +19,6 @@ class CreateEmployeesTable extends Migration
             $table -> string('lastname');
             $table -> date('birthDay');
             $table -> bigInteger('location_id') -> unsigned();
-            $table -> bigInteger('task_id') -> unsigned();
             $table -> timestamps();
         });
     }
